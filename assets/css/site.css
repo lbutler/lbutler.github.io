@@ -19,6 +19,7 @@ body {
 }
 
 .melbparking {
+	background: url('../img/MelbParking.jpg') no-repeat center center fixed;
 	background-size: cover;
 }
 
