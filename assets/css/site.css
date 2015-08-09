@@ -2,6 +2,8 @@
 html {
   height:100%;
   margin:0;
+  
+  color: #fff;
 }
 
 body {
@@ -9,12 +11,12 @@ body {
   margin:0;
 }
 
-.container {
+.slide {
 	height:100%;
 }
 
 .welcome {
-	background: url('../img/welcome.jpg') no-repeat center center;
+	background: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url('../img/welcome.jpg') no-repeat center center;
 	background-size: cover;
 }
 
@@ -24,6 +26,50 @@ body {
 }
 
 .pfi {
-	background: url('../img/PFI.png') no-repeat top left ;
+	background: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url('../img/PFI.png') no-repeat top left;
 	background-size: cover;
+}
+
+.jumbotron {
+	background-color: transparent;
+	color: white;
+}
+
+.jumbotron h1 {
+	font-size: 50px;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 700; 
+}
+
+.jumbotron h2 {
+	font-size: 40px;
+}
+
+.jumbotron h3 {
+	margin-top: 40px;
+}
+
+
+.projectlinker h2 {
+	font-size: 22px;
+	color: rgba(255, 255, 255, 0.5);
+	text-align: center;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+}
+
+.jumbotron p {
+	font-size: 18px;
+	margin-bottom: 5px;
+	margin-left: 20px;
+}
+
+
+@media screen and (min-width: 768px) {
+.jumbotron h1, .jumbotron .h1 {
+    font-size: 75px;
+    
+}
+
 }
