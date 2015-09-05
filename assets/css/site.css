@@ -65,6 +65,15 @@ body {
 	margin-left: 20px;
 }
 
+a {
+	color: #fff;
+}
+
+a:hover, a:focus {
+    color: #999;
+    text-decoration: none;
+}
+
 
 @media screen and (min-width: 768px) {
 .jumbotron h1, .jumbotron .h1 {
