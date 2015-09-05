@@ -30,6 +30,12 @@ body {
 	background-size: cover;
 }
 
+.chip8 {
+	background: linear-gradient(rgba(0, 0, 0, 0.85),rgba(0, 0, 0, 0.8),rgba(0, 0, 0, 0.5)), url('../img/Chip8.jpg') no-repeat center center;
+	background-size: cover;
+}
+
+
 .jumbotron {
 	background-color: transparent;
 	color: white;
