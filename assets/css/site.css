@@ -25,6 +25,11 @@ body {
 	background-size: cover;
 }
 
+.MelbBuilding {
+	background: url('../img/MelbBuilding.jpg') no-repeat center center fixed;
+	background-size: cover;
+}
+
 .pfi {
 	background: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.3)), url('../img/PFI.png') no-repeat top left;
 	background-size: cover;
